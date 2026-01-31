@@ -35,7 +35,7 @@ RUN git clone --depth 1 --branch 18.0 \
     https://github.com/OCA/mis-builder mis-builder
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/server-tools
+    https://github.com/OCA/server-tools server-tools
 
 RUN git clone --depth 1 --branch 18.0 \
     https://github.com/OCA/l10n-italy l10n-italy
