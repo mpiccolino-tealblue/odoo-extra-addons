@@ -5,37 +5,37 @@ RUN apk add --no-cache git
 WORKDIR /mnt/extra-addons
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/account-financial-tools.git .
+    https://github.com/OCA/account-financial-tools.git account-financial-tools
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/account-invoicing.git .
+    https://github.com/OCA/account-invoicing.git account-invoicing
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/account-financial-reporting.git .
+    https://github.com/OCA/account-financial-reporting.git account-financial-reporting
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/account-reconcile.git .
+    https://github.com/OCA/account-reconcile.git account-reconcile
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/account-analytic .
+    https://github.com/OCA/account-analytic account-analytic
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/account-invoice-reporting .
+    https://github.com/OCA/account-invoice-reporting account-invoice-reporting
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/account-fiscal-rule .
+    https://github.com/OCA/account-fiscal-rule account-fiscal-rule
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/account-closing .
+    https://github.com/OCA/account-closing account-closing
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/account-budgeting .
+    https://github.com/OCA/account-budgeting account-budgeting
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/mis-builder .
+    https://github.com/OCA/mis-builder mis-builder
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/l10n-italy .
+    https://github.com/OCA/l10n-italy l10n-italy
 
 
 # Keep the container running, Coolify only needs the volume content
