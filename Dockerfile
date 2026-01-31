@@ -38,7 +38,7 @@ RUN git clone --depth 1 --branch 18.0 \
     https://github.com/OCA/server-tools server-tools
 
 RUN git clone --depth 1 --branch 18.0 \
-    https://github.com/OCA/server-tools server-ux
+    https://github.com/OCA/server-ux server-ux
 
 RUN git clone --depth 1 --branch 18.0 \
     https://github.com/OCA/reporting-engine reporting-engine
