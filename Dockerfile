@@ -43,7 +43,7 @@ RUN git clone --depth 1 --branch 18.0 \
 RUN git clone --depth 1 --branch 18.0 \
     https://github.com/OCA/reporting-engine reporting-engine
 
-RUN git clone --depth 1 --branch 18.0 \
+RUN git clone --depth 1 --branch master \
     https://github.com/OCA/openupgradelib openupgradelib
 
 RUN git clone --depth 1 --branch 18.0 \
